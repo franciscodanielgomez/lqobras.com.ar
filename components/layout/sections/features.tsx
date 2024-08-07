@@ -11,37 +11,37 @@ interface FeaturesProps {
 const featureList: FeaturesProps[] = [
   {
     icon: "TabletSmartphone",
-    title: "Mobile Friendly",
+    title: "Proyectos y Direccion Técnica",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, consectetur.",
   },
   {
     icon: "BadgeCheck",
-    title: "Social Proof",
+    title: "Documentaciones de Obras",
     description:
       "Lorem ipsum dolor sit amet consectetur. Natus consectetur, odio ea accusamus aperiam.",
   },
   {
     icon: "Goal",
-    title: "Targeted Content",
+    title: "Habilitaciones Comerciales",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. odio ea accusamus aperiam.",
   },
   {
     icon: "PictureInPicture",
-    title: "Strong Visuals",
+    title: "Croquis para Conexión de Luz",
     description:
       "Lorem elit. A odio velit cum aliquam. Natus consectetur dolores, odio ea accusamus aperiam.",
   },
   {
     icon: "MousePointerClick",
-    title: "Clear CTA",
+    title: "Diplomatura 1",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing. odio ea accusamus consectetur.",
   },
   {
     icon: "Newspaper",
-    title: "Clear Headline",
+    title: "Diplomatura 2",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur.",
   },
@@ -51,11 +51,11 @@ export const FeaturesSection = () => {
   return (
     <section id="features" className="container py-24 sm:py-32">
       <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
-        Features
+        Servicios
       </h2>
 
       <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-        What Makes Us Different
+       Conoce mis principales servicios
       </h2>
 
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">

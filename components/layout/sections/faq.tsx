@@ -13,31 +13,31 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Is this template free?",
+    question: "Preguntas comunes",
     answer: "Yes. It is a free NextJS Shadcn template.",
     value: "item-1",
   },
   {
-    question: "Duis aute irure dolor in reprehenderit in voluptate velit?",
+    question: "Preguntas comunes",
     answer:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam consectetur sapiente, iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
     value: "item-2",
   },
   {
     question:
-      "Lorem ipsum dolor sit amet Consectetur natus dolor minus quibusdam?",
+      "Preguntas comunes",
     answer:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis.",
     value: "item-3",
   },
   {
-    question: "Excepteur sint occaecat cupidata non proident sunt?",
+    question: "Preguntas comunes",
     answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
     value: "item-4",
   },
   {
     question:
-      "Enim ad minim veniam, quis nostrud exercitation ullamco laboris?",
+      "Preguntas comunes",
     answer: "consectetur adipisicing elit. Sint labore.",
     value: "item-5",
   },
@@ -52,7 +52,7 @@ export const FAQSection = () => {
         </h2>
 
         <h2 className="text-3xl md:text-4xl text-center font-bold">
-          Common Questions
+         Preguntas frecuentes
         </h2>
       </div>
 

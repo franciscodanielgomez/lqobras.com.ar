@@ -31,7 +31,12 @@ export const HeroSection = () => {
 
                     <div className="space-y-4 md:space-y-0 md:space-x-4">
                         <Button className="w-5/6 md:w-1/4 font-bold group/arrow">
-                            Get Started
+                            <Link
+                                href="https://wa.me/5493704364290"
+                                target="_blank"
+                            >
+                                Contacto
+                            </Link>
                             <ArrowRight className="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform"/>
                         </Button>
 
@@ -44,7 +49,7 @@ export const HeroSection = () => {
                                 href="https://github.com/nobruf/shadcn-landing-page.git"
                                 target="_blank"
                             >
-                                Github respository
+                                Servicios
                             </Link>
                         </Button>
                     </div>
