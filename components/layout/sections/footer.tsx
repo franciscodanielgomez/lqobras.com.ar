@@ -32,7 +32,7 @@ export const FooterSection = () => {
           </div>
 
           <div className="flex flex-col gap-2">
-            <h3 className="font-bold text-lg">Links de interes</h3>
+            <h3 className="font-bold text-lg">Links de Interes</h3>
             <div>
               <Link href="#" className="opacity-60 hover:opacity-100">
                 ISO 9001
@@ -66,7 +66,7 @@ export const FooterSection = () => {
           </div>
 
           <div className="flex flex-col gap-2">
-            <h3 className="font-bold text-lg">Socials</h3>
+            <h3 className="font-bold text-lg">Redes Sociales</h3>
             <div>
               <Link href="#" className="opacity-60 hover:opacity-100">
                 Linkedin

@@ -25,9 +25,9 @@ interface PlanProps {
 
 const plans: PlanProps[] = [
   {
-    title: "Free",
+    title: "Básico",
     popular: 0,
-    price: 0,
+    price: 5000,
     description:
       "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
     buttonText: "Start Free Trial",
@@ -40,9 +40,9 @@ const plans: PlanProps[] = [
     ],
   },
   {
-    title: "Premium",
+    title: "Profesional",
     popular: 1,
-    price: 45,
+    price: 5000,
     description:
       "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
     buttonText: "Get starterd",
@@ -55,9 +55,9 @@ const plans: PlanProps[] = [
     ],
   },
   {
-    title: "Enterprise",
+    title: "Custom",
     popular: 0,
-    price: 120,
+    price: 5000,
     description:
       "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
     buttonText: "Contact US",
@@ -75,11 +75,11 @@ export const PricingSection = () => {
   return (
     <section className="container py-24 sm:py-32">
       <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
-        Pricing
+        Asesorías
       </h2>
 
       <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-        Get unlimitted access
+        Asesorías profesionales
       </h2>
 
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground pb-14">

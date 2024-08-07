@@ -16,7 +16,7 @@ export default function Home() {
       <SponsorsSection />
       <BenefitsSection />
       <FeaturesSection />
-      <ServicesSection />
+
       <TestimonialSection />
       <TeamSection />
       <PricingSection />
