@@ -11,6 +11,7 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import { Component } from "react";
+import WhatsAppIcon from "@/components/icons/whatsapp";
 interface TeamProps {
   imageUrl: string;
   firstName: string;
@@ -25,142 +26,37 @@ interface SocialNetworkProps {
 export const TeamSection = () => {
   const teamList: TeamProps[] = [
     {
-      imageUrl: "https://i.pravatar.cc/250?img=58",
+      imageUrl: "/3.png", // Ruta correcta
       firstName: "Proyecto",
       lastName: "1",
       positions: ["Formosa"],
       socialNetworks: [
-        {
-          name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
-        },
-        {
-          name: "Github",
-          url: "https://github.com/leoMirandaa",
-        },
-        {
-          name: "X",
-          url: "https://x.com/leo_mirand4",
-        },
       ],
     },
     {
-      imageUrl:
-        "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      imageUrl: "/4.png", // Ruta correcta
       firstName: "Proyecto",
       lastName: "2",
       positions: ["Formosa"],
       socialNetworks: [
-        {
-          name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
-        },
-        {
-          name: "X",
-          url: "https://x.com/leo_mirand4",
-        },
       ],
     },
     {
-      imageUrl:
-        "https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=1760&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      imageUrl: "/2.png", // Ruta correcta
       firstName: "Proyecto",
       lastName: "3",
       positions: ["Formosa"],
       socialNetworks: [
-        {
-          name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
-        },
-        {
-          name: "Github",
-          url: "https://github.com/leoMirandaa",
-        },
+
       ],
     },
     {
-      imageUrl:
-        "https://images.unsplash.com/photo-1573497161161-c3e73707e25c?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      imageUrl: "/1.png", // Ruta correcta
       firstName: "Proyecto",
       lastName: "4",
       positions: ["Formosa"],
       socialNetworks: [
-        {
-          name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
-        },
-        {
-          name: "Github",
-          url: "https://github.com/leoMirandaa",
-        },
-        {
-          name: "X",
-          url: "https://x.com/leo_mirand4",
-        },
-      ],
-    },
-    {
-      imageUrl:
-        "https://images.unsplash.com/photo-1616805765352-beedbad46b2a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      firstName: "Proyecto",
-      lastName: "5",
-      positions: ["Formosa"],
-      socialNetworks: [
-        {
-          name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
-        },
-      ],
-    },
-    {
-      imageUrl:
-        "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      firstName: "Proyecto",
-      lastName: "6",
-      positions: ["Formosa"],
-      socialNetworks: [
-        {
-          name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
-        },
-        {
-          name: "Github",
-          url: "https://github.com/leoMirandaa",
-        },
-      ],
-    },
-    {
-      imageUrl:
-        "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      firstName: "Proyecto",
-      lastName: "7",
-      positions: ["Formosa"],
-      socialNetworks: [
-        {
-          name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
-        },
-        {
-          name: "Github",
-          url: "https://github.com/leoMirandaa",
-        },
-        {
-          name: "X",
-          url: "https://x.com/leo_mirand4",
-        },
-      ],
-    },
-    {
-      imageUrl:
-        "https://images.unsplash.com/photo-1573497019236-17f8177b81e8?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://images.unsplash.com/photo-1573497019236-17f8177b81e8?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      firstName: "Proyecto",
-      lastName: "8",
-      positions: ["Formosa"],
-      socialNetworks: [
-        {
-          name: "X",
-          url: "https://x.com/leo_mirand4",
-        },
+
       ],
     },
   ];
@@ -170,6 +66,8 @@ export const TeamSection = () => {
         return <LinkedInIcon />;
       case "Github":
         return <GithubIcon />;
+      case "Whatsapp":
+        return <WhatsAppIcon />;
       case "X":
         return <XIcon />;
     }
@@ -224,18 +122,6 @@ export const TeamSection = () => {
                 </CardContent>
               ))}
 
-              <CardFooter className="space-x-4 mt-auto">
-                {socialNetworks.map(({ name, url }, index) => (
-                  <Link
-                    key={index}
-                    href={url}
-                    target="_blank"
-                    className="hover:opacity-80 transition-all"
-                  >
-                    {socialIcon(name)}
-                  </Link>
-                ))}
-              </CardFooter>
             </Card>
           )
         )}

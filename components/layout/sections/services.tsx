@@ -17,26 +17,26 @@ interface ServiceProps {
 }
 const serviceList: ServiceProps[] = [
   {
-    title: "Custom Domain Integration",
+    title: "Teléfono",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit adipisicing.",
     pro: 0,
   },
   {
-    title: "Social Media Integrations",
+    title: "Linkedin",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, dicta.",
     pro: 0,
   },
   {
-    title: "Email Marketing Integrations",
-    description: "Lorem dolor sit amet adipisicing.",
+    title: "Instagram",
+    description: "https://www.instagram.com",
     pro: 0,
   },
   {
-    title: "SEO Optimization",
-    description: "Lorem ipsum dolor sit amet consectetur.",
-    pro: 1,
+    title: "Ubicación",
+    description: "Formosa, Argentina.",
+    pro: 0,
   },
 ];
 

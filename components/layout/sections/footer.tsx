@@ -32,16 +32,16 @@ export const FooterSection = () => {
           </div>
 
           <div className="flex flex-col gap-2">
-            <h3 className="font-bold text-lg">Links de Interes</h3>
+            <h3 className="font-bold text-lg">Proyectos</h3>
             <div>
               <Link href="#" className="opacity-60 hover:opacity-100">
-                ISO 9001
+                Servicios
               </Link>
             </div>
 
             <div>
               <Link href="#" className="opacity-60 hover:opacity-100">
-                ISO 9001
+                Proyectos
               </Link>
             </div>
 
@@ -52,7 +52,7 @@ export const FooterSection = () => {
             <h3 className="font-bold text-lg">Sitio</h3>
             <div>
               <Link href="#" className="opacity-60 hover:opacity-100">
-                Servicios
+                Asesoría profesional
               </Link>
             </div>
 

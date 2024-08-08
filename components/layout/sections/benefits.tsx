@@ -13,25 +13,25 @@ const benefitList: BenefitsProps[] = [
     icon: "Blocks",
     title: "Proyecto",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+        "Desarrollo integral del proyecto, desde la planificación hasta la ejecución, asegurando que cada detalle se adapte a tus necesidades.",
   },
   {
     icon: "LineChart",
     title: "Dirección técnica",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, natus consectetur.",
+        "Supervisión y coordinación técnica durante toda la construcción, garantizando el cumplimiento de estándares y normativas.",
   },
   {
     icon: "Wallet",
     title: "Relevamiento de Obra",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur. A odio velit cum aliquam",
+        "Análisis y evaluación detallada del estado actual de la obra para optimizar recursos y mejorar la eficiencia en la construcción.",
   },
   {
     icon: "Sparkle",
     title: "Habilitación Comercial",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+        "Asesoramiento y gestión para obtener la habilitación comercial necesaria, asegurando el cumplimiento de todos los requisitos legales.",
   },
 ];
 
@@ -46,22 +46,25 @@ export const BenefitsSection = () => {
             María Lourdes Quiñonez
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
-            Soy Maestro Mayor de Obras, especializado en una amplia gama de trabajos, y cuento con más de 5 años de experiencia.
+            Soy Maestro Mayor de Obras con más de 5 años de experiencia en el sector de la construcción. Mi
+            especialización abarca una amplia gama de trabajos. Mi experiencia y compromiso me permiten ofrecer
+            soluciones eficaces y personalizadas para cada proyecto, garantizando resultados de alta calidad y
+            cumplimiento de todas las normativas vigentes.
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-4 w-full">
-          {benefitList.map(({ icon, title, description }, index) => (
-            <Card
-              key={title}
-              className="bg-muted/50 dark:bg-card hover:bg-background transition-all delay-75 group/number"
-            >
-              <CardHeader>
-                <div className="flex justify-between">
-                  <Icon
-                    name={icon as keyof typeof icons}
-                    size={32}
-                    color="hsl(var(--primary))"
+          {benefitList.map(({icon, title, description}, index) => (
+              <Card
+                  key={title}
+                  className="bg-muted/50 dark:bg-card hover:bg-background transition-all delay-75 group/number"
+              >
+                <CardHeader>
+                  <div className="flex justify-between">
+                    <Icon
+                        name={icon as keyof typeof icons}
+                        size={32}
+                        color="hsl(var(--primary))"
                     className="mb-6 text-primary"
                   />
                   <span className="text-5xl text-muted-foreground/15 font-medium transition-all delay-75 group-hover/number:text-muted-foreground/30">

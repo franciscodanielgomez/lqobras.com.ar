@@ -11,39 +11,39 @@ interface FeaturesProps {
 const featureList: FeaturesProps[] = [
   {
     icon: "TabletSmartphone",
-    title: "Proyectos y Direccion Técnica",
+    title: "Viviendas",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, consectetur.",
+      "Realización de proyectos de construcción de viviendas unifamiliares, abarcando desde la planificación hasta la entrega final, garantizando calidad y cumplimiento de normativas.",
   },
   {
     icon: "BadgeCheck",
-    title: "Documentaciones de Obras",
+    title: "Departamentos",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Natus consectetur, odio ea accusamus aperiam.",
+      "Desarrollo de edificios de departamentos, incluyendo diseño arquitectónico, construcción, y acabados de alta calidad, con especial atención a la eficiencia espacial y funcionalidad.",
   },
   {
     icon: "Goal",
-    title: "Habilitaciones Comerciales",
+    title: "Duplex",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. odio ea accusamus aperiam.",
+      "Construcción de dúplex modernos y funcionales, proporcionando espacios de convivencia amplios y bien distribuidos, ideales para familias que buscan comodidad y estilo.",
   },
   {
     icon: "PictureInPicture",
-    title: "Croquis para Conexión de Luz",
+    title: "Piscinas",
     description:
-      "Lorem elit. A odio velit cum aliquam. Natus consectetur dolores, odio ea accusamus aperiam.",
+      "Diseño y construcción de piscinas personalizadas, adaptadas a las necesidades y preferencias del cliente, utilizando materiales de primera calidad y tecnología avanzada para asegurar durabilidad y estética.",
   },
   {
     icon: "MousePointerClick",
-    title: "Diplomatura 1",
+    title: "Locales comerciales",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing. odio ea accusamus consectetur.",
+      "Creación de espacios comerciales atractivos y funcionales, desde tiendas hasta oficinas, optimizando el diseño para maximizar la visibilidad y accesibilidad, y cumplir con las exigencias del mercado.",
   },
   {
     icon: "Newspaper",
-    title: "Diplomatura 2",
+    title: "Reformas y ampliaciones",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur.",
+      "Ejecución de reformas y ampliaciones en estructuras existentes, mejorando la funcionalidad y estética del espacio, y adaptándolo a nuevas necesidades o tendencias, siempre con un enfoque en la calidad y el detalle.",
   },
 ];
 
@@ -59,9 +59,7 @@ export const FeaturesSection = () => {
       </h2>
 
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
-        fugiat, odit similique quasi sint reiciendis quidem iure veritatis optio
-        facere tenetur.
+        Ofrezco asesoramiento técnico y gestión integral de proyectos de construcción. Aseguro calidad, precisión y cumplimiento normativo en cada etapa del proceso, garantizando resultados exitosos y eficientes.
       </h3>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">

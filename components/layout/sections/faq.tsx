@@ -13,32 +13,28 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Preguntas comunes",
-    answer: "Yes. It is a free NextJS Shadcn template.",
+    question: "¿Qué incluye el servicio de Proyecto y Dirección Técnica?",
+    answer: "El servicio incluye planificación detallada, supervisión técnica durante la construcción, coordinación de subcontratistas, revisión y aprobación de materiales, e informes periódicos de avance.",
     value: "item-1",
   },
   {
-    question: "Preguntas comunes",
-    answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam consectetur sapiente, iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+    question: "¿Qué es un Relevamiento de Obra y por qué es importante?",
+    answer: "Un Relevamiento de Obra es una evaluación exhaustiva del estado actual del sitio de construcción. Es importante porque identifica problemas y riesgos, permite optimizar recursos y proporciona recomendaciones para mejorar la eficiencia y seguridad del proyecto.",
     value: "item-2",
   },
   {
-    question:
-      "Preguntas comunes",
-    answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis.",
+    question: "¿Cómo puedo obtener la Habilitación Comercial para mi proyecto?",
+    answer: "La habilitación comercial se obtiene mediante una revisión de documentación legal, gestión de permisos y licencias, cumplimiento de normativas locales, asistencia en trámites administrativos y asesoramiento en regulaciones comerciales.",
     value: "item-3",
   },
   {
-    question: "Preguntas comunes",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    question: "¿Cuánto tiempo suele tomar la dirección técnica de un proyecto?",
+    answer: "La duración de la dirección técnica depende del tamaño y complejidad del proyecto. En general, se realiza una supervisión continua durante todo el proceso de construcción hasta su finalización.",
     value: "item-4",
   },
   {
-    question:
-      "Preguntas comunes",
-    answer: "consectetur adipisicing elit. Sint labore.",
+    question: "¿Qué tipo de soporte está incluido en el servicio de Relevamiento de Obra?",
+    answer: "El servicio incluye un informe detallado de recomendaciones, asesoramiento para optimización, y una evaluación completa del sitio para identificar problemas y riesgos potenciales.",
     value: "item-5",
   },
 ];

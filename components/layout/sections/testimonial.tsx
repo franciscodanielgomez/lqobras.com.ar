@@ -24,54 +24,53 @@ interface ReviewProps {
   rating: number;
 }
 
-const reviewList: ReviewProps[] = [
+const reviewList = [
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe",
-    userName: "Product Manager",
+    name: "Carlos Méndez",
+    userName: "Propietario de Vivienda",
     comment:
-      "Wow NextJs + Shadcn is awesome!. This template lets me change colors, fonts and images to match my brand identity. ",
+        "Lourdes y su equipo hicieron un trabajo excepcional. Nuestra nueva vivienda es hermosa y funcional. ¡Recomendados al 100%!",
     rating: 5.0,
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "Sophia Collins",
-    userName: "Cybersecurity Analyst",
+    name: "Ana Rodríguez",
+    userName: "Gerente de Tienda",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. ",
+        "Lourdes nos ayudó a construir un local comercial que ha atraído a muchos clientes. El diseño y la calidad son inigualables.",
     rating: 4.8,
   },
-
   {
     image: "https://github.com/shadcn.png",
-    name: "Adam Johnson",
-    userName: "Chief Technology Officer",
+    name: "Javier Pérez",
+    userName: "Dueño de Departamento",
     comment:
-      "Lorem ipsum dolor sit amet,exercitation. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "Estoy muy contento con el departamento que Lourdes y su equipo construyeron para nosotros. Cada detalle fue pensado cuidadosamente.",
     rating: 4.9,
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "Ethan Parker",
-    userName: "Data Scientist",
+    name: "María López",
+    userName: "Residente de Dúplex",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua. Ut enim ad minim veniam.",
+        "Lourdes y el equipo hicieron un trabajo increíble con nuestro dúplex. Es espacioso y moderno, exactamente lo que queríamos.",
     rating: 5.0,
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "Ava Mitchell",
-    userName: "IT Project Manager",
+    name: "Juan García",
+    userName: "Propietario de Piscina",
     comment:
-      "Lorem ipsum dolor sit amet, tempor incididunt  aliqua. Ut enim ad minim veniam, quis nostrud incididunt consectetur adipiscing elit.",
+        "La piscina que Lourdes y su equipo construyeron es fantástica. Los materiales y la construcción son de primera calidad.",
     rating: 5.0,
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "Isabella Reed",
-    userName: "DevOps Engineer",
+    name: "Sofía Martínez",
+    userName: "Cliente de Reforma",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Lourdes realizó la reforma de nuestra casa junto con su equipo y no podríamos estar más satisfechos. El resultado superó nuestras expectativas.",
     rating: 4.9,
   },
 ];
@@ -81,11 +80,11 @@ export const TestimonialSection = () => {
     <section id="testimonials" className="container py-24 sm:py-32">
       <div className="text-center mb-8">
         <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
-          Testimonials
+          Testimonios
         </h2>
 
         <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-          Hear What Our 1000+ Clients Say
+          Mira lo que mis clientes opinaron
         </h2>
       </div>
 
