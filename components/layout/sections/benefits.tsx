@@ -1,6 +1,8 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Icon } from "@/components/ui/icon";
-import { icons } from "lucide-react";
+import {ArrowRight, icons} from "lucide-react";
+import {Button} from "@/components/ui/button";
+import Link from "next/link";
 
 interface BenefitsProps {
   icon: string;
@@ -51,6 +53,8 @@ export const BenefitsSection = () => {
             soluciones eficaces y personalizadas para cada proyecto, garantizando resultados de alta calidad y
             cumplimiento de todas las normativas vigentes.
           </p>
+          
+
         </div>
 
         <div className="grid lg:grid-cols-2 gap-4 w-full">
@@ -65,17 +69,18 @@ export const BenefitsSection = () => {
                         name={icon as keyof typeof icons}
                         size={32}
                         color="hsl(var(--primary))"
-                    className="mb-6 text-primary"
-                  />
-                  <span className="text-5xl text-muted-foreground/15 font-medium transition-all delay-75 group-hover/number:text-muted-foreground/30">
+                        className="mb-6 text-primary"
+                    />
+                    <span
+                        className="text-5xl text-muted-foreground/15 font-medium transition-all delay-75 group-hover/number:text-muted-foreground/30">
                     0{index + 1}
                   </span>
-                </div>
+                  </div>
 
-                <CardTitle>{title}</CardTitle>
-              </CardHeader>
+                  <CardTitle>{title}</CardTitle>
+                </CardHeader>
 
-              <CardContent className="text-muted-foreground">
+                <CardContent className="text-muted-foreground">
                 {description}
               </CardContent>
             </Card>

@@ -11,7 +11,6 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import { Component } from "react";
-import WhatsAppIcon from "@/components/icons/whatsapp";
 interface TeamProps {
   imageUrl: string;
   firstName: string;
@@ -66,8 +65,6 @@ export const TeamSection = () => {
         return <LinkedInIcon />;
       case "Github":
         return <GithubIcon />;
-      case "Whatsapp":
-        return <WhatsAppIcon />;
       case "X":
         return <XIcon />;
     }

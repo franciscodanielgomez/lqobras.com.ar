@@ -18,13 +18,13 @@ export const FooterSection = () => {
           <div className="flex flex-col gap-2">
             <h3 className="font-bold text-lg">Contacto</h3>
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
+              <Link href="mailto:lourdes_maria_q@hotmail.com" className="opacity-60 hover:opacity-100">
                 Email
               </Link>
             </div>
 
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
+              <Link href="https://wa.me/5493704364290" className="opacity-60 hover:opacity-100">
                 Whatsapp
               </Link>
             </div>
@@ -34,13 +34,13 @@ export const FooterSection = () => {
           <div className="flex flex-col gap-2">
             <h3 className="font-bold text-lg">Proyectos</h3>
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
+              <Link href="#features" className="opacity-60 hover:opacity-100">
                 Servicios
               </Link>
             </div>
 
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
+              <Link href="#team" className="opacity-60 hover:opacity-100">
                 Proyectos
               </Link>
             </div>
@@ -51,13 +51,13 @@ export const FooterSection = () => {
           <div className="flex flex-col gap-2">
             <h3 className="font-bold text-lg">Sitio</h3>
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
+              <Link href="#pricing" className="opacity-60 hover:opacity-100">
                 Asesoría profesional
               </Link>
             </div>
 
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
+              <Link href="#faq" className="opacity-60 hover:opacity-100">
                 FAQ
               </Link>
             </div>
@@ -68,13 +68,13 @@ export const FooterSection = () => {
           <div className="flex flex-col gap-2">
             <h3 className="font-bold text-lg">Redes Sociales</h3>
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
+              <Link href="https://linkedin.com/" className="opacity-60 hover:opacity-100">
                 Linkedin
               </Link>
             </div>
 
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
+              <Link href="https://instagram.com/" className="opacity-60 hover:opacity-100">
                 Instagram
               </Link>
             </div>

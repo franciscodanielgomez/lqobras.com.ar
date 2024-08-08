@@ -10,18 +10,19 @@ import { TeamSection } from "@/components/layout/sections/team";
 import { TestimonialSection } from "@/components/layout/sections/testimonial";
 
 export default function Home() {
-  return (
-    <>
-      <HeroSection />
-      <SponsorsSection />
-      <BenefitsSection />
-      <FeaturesSection />
+    return (
+        <>
+            <HeroSection />
 
-      <TestimonialSection />
-      <TeamSection />
-      <PricingSection />
-      <FAQSection />
-      <FooterSection />
-    </>
-  );
+            <BenefitsSection />
+            <FeaturesSection />
+            <TestimonialSection />
+            <TeamSection />
+            <PricingSection />
+            <FAQSection />
+            <FooterSection />
+
+        </>
+    );
 }
+
