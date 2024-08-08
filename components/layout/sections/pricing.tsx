@@ -7,7 +7,8 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Check } from "lucide-react";
+import {ArrowRight, Check} from "lucide-react";
+import Link from "next/link";
 
 enum PopularPlan {
   NO = 0,
@@ -119,13 +120,14 @@ export const PricingSection = () => {
                     </CardContent>
 
                     <CardFooter>
-                      <Button
-                          variant={
-                            popular === PopularPlan?.YES ? "default" : "secondary"
-                          }
-                          className="w-full"
-                      >
-                        {buttonText}
+                      <Button className="w-full">
+                        <Link
+                            href="https://wa.me/5493704364290"
+                            target="_blank"
+                        >
+                          Contacto
+                        </Link>
+                        <ArrowRight className="size-5 ml-2 group-hover/arrow:translate-x-1"/>
                       </Button>
                     </CardFooter>
                   </Card>

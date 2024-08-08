@@ -53,7 +53,7 @@ export const BenefitsSection = () => {
             soluciones eficaces y personalizadas para cada proyecto, garantizando resultados de alta calidad y
             cumplimiento de todas las normativas vigentes.
           </p>
-          
+
 
         </div>
 
